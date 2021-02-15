@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Simple Quiz</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="initial_score">0</string>
+    <string name="q_start">Begin Quiz!</string>
+    <string name="math_q">2+2=4</string>
+    <string name="math_q1">3+3=7</string>
+    <string name="coding_q">This app is made with Java</string>
+    <string name="android_q">Android phones run iOS</string>
+    <string name="mac_q">Macs can virtually run Windows</string>
+    <string name="cs_q">CS major is hard</string>
+    <string name="calculus_q">A derivative finds the area under a curve</string>
+    <string name="multi_q">The gradient is three partial derivatives as a vector</string>
+    <string name="linear_q">Linear algebra has many applications to CS</string>
+
+
+    <string name="title_activity_summary">SummaryActivity</string>
+</resources>
