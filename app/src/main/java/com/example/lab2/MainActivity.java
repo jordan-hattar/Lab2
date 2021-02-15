@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         Button next_button = findViewById(R.id.next_button);
         Button summaryButton = findViewById(R.id.summaryButton);
 
-// couldn't figure out the bug where the true/false/next buttons don't always count the score correctly
+// couldn't figure out the bug where the true/false/next buttons don't always count the score correctly and the question not changing
         true_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
