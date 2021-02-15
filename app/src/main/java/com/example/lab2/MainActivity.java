@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private Button trueButton;
     private Button falseButton;
     private Button nextButton;
-    private Button quitButton;
+    private Button summaryButton;
 
     AllQuestions allQuestions = new AllQuestions();
     NextQuestion nextQuestion = new NextQuestion();
@@ -160,6 +160,8 @@ public class MainActivity extends AppCompatActivity {
     public void SummaryActivity(View view){
         Intent intent = new Intent(MainActivity.this,SummaryActivity.class);
         intent.putExtra("score",score.getScore());
+        startActivity(intent);
+        MainActivity.this.finish();
     }
 
 
